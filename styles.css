@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('images/cyberpunk.gif') center/cover fixed;
+  font-family: 'Courier New', monospace;
+  font-size: 40px;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/cyberpunk.gif') center/cover fixed;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  height: 100vh;
+  width: 160px;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu li {
+  margin-top: 140px;
+  margin-bottom: 150px;
+  text-align: center;
+  
+}
+
+.side-menu .menu-item {
+  margin-top: 140px;
+  margin-bottom: 150px;
+}
+
+.side-menu a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Courier New', monospace;
+}
+
+.side-menu a.active {
+  position: relative;
+}
+
+.side-menu a.active span {
+  position: relative;
+  color: #fff;
+  z-index: 2;
+}
+
+.side-menu a.active::before {
+  content: '';
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  top: 50%;
+  left: 30px;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: 0;
+  opacity: 0.2;
+}
+
+
+/* Introduction */
+.introduction {
+  margin-left: 200px;
+  height: 170vh;
+  padding: 20px;
+  text-align: center;
+  border: none;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.introduction p {
+  color: #fff;
+}
+
+.selfimg img {
+  height: 13cm;
+  width: auto;
+  margin-top: 1cm;
+}
+
+.selftext p {
+  color: #fff;
+  font-size: 50pt;
+}
+
+.selftext img {
+  height: 4cm;
+}
+
+.selfgif img {
+  height: 5cm;
+
+}
+
+
+/* Work */
+.work {
+  margin-left: 200px;
+  height: 250vh;
+  padding: 20px;
+  text-align: center;
+  border: none;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.work p {
+  color: #fff;
+}
+
+.work span {
+  font-weight: bolder;
+}
+
+.work span1 {
+  color: rgb(214, 22, 60);
+}
+
+.work span2 {
+  color: rgb(255, 111, 243);
+}
+
+.nekolink iframe {
+  margin-left: -20cm;
+}
+
+.nekoimg img {
+  height: 4cm;
+  width: auto;
+}
+
+.nekotext {
+  border: 2px solid #fff;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+.nekotext p {
+  color: #fff;
+  text-align: left;
+  margin: 20px 60px 20px 60px;
+}
+
+.nekotext span1 {
+  color: rgb(11, 214, 11);
+}
+
+.nekotext span2 {
+  color: rgb(214, 22, 60);
+}
+
+
+/* Contacts */
+.contacts {
+  margin-left: 200px;
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+  border: none;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sign img {
+  height: 2cm;
+  width: auto;
+}
