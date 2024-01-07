@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    // Function to highlight the active menu item based on the current section in view
     function highlightActiveMenuItem() {
         var scrollPosition = $(window).scrollTop();
 
@@ -16,7 +15,6 @@ $(document).ready(function () {
         });
     }
 
-    // Call the function on page load and scroll
     $(window).on('load scroll', function () {
         highlightActiveMenuItem();
     });
