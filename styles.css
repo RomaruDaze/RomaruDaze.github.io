@@ -150,10 +150,6 @@ body::after {
   color: rgb(255, 111, 243);
 }
 
-.nekolink iframe {
-  margin-left: -20cm;
-}
-
 .nekoimg img {
   height: 4cm;
   width: auto;
