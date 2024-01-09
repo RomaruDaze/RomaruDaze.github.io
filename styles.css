@@ -186,14 +186,9 @@ body::after {
   position: relative;
   background-color: rgba(0, 0, 0, 0.7);
 }
-.sign p{
-  margin-top: 300px;
-  font-size: 100px;
-  color:#fff;
-  font-weight: bold;
-}
-.sign img {
 
+.sign img {
+  margin-top: 300px;
   height: 2cm;
   width: auto;
 }
