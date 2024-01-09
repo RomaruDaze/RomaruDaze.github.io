@@ -7,7 +7,8 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  background: url('images/background.gif') center/cover fixed;
+  background: url('images/background.gif') center fixed;
+  background-size: cover;
   font-family: 'Courier New', monospace;
   font-size: 40px;
 }
@@ -19,7 +20,8 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('images/background.gif') center/cover fixed;
+  background: url('images/background.gif') center fixed;
+  background-size: cover;
   opacity: 0.5;
   z-index: -1;
 }
@@ -179,15 +181,32 @@ body::after {
 /* Contacts */
 .contacts {
   margin-left: 200px;
-  height: 100vh;
+  height: 120vh;
   padding: 20px;
   text-align: center;
   border: none;
   position: relative;
   background-color: rgba(0, 0, 0, 0.7);
 }
-
+.sign p{
+  margin-top: 300px;
+  font-size: 100px;
+  color:#fff;
+  font-weight: bold;
+}
 .sign img {
+
   height: 2cm;
   width: auto;
+}
+
+.conimg img{
+  height: auto;
+  width: 20%;
+}
+
+.conimg p{
+  font-size: 50;
+  color: #fff;
+  margin-top: -10px;
 }
