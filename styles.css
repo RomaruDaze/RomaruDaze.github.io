@@ -218,7 +218,70 @@ body::after {
 
 /* Responsive styles */
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 2vw;
+  }
+  .side-menu {
+    display: none; 
+  }
+  .introduction, .work, .contacts {
+    margin-left: 0;
+    padding: 10px; 
+    font-size: 12pt;
+  }
+  .introduction {
+    height: 60vh;
+    padding: 20px;
+    border: none;
+
+  }
+  .selfimg img {
+    height: 3cm;
+    width: auto;
+  }
+  .selftext img{
+    width: 10cm;
+    height: auto;
+  }
+  .selfgif img{
+    height: 2cm;
+  }
+  .work{
+    height: 135vh;
+  } 
+  .work iframe{
+    height: 2cm;
+    width: auto;
+  }
+  .nekoimg img{
+    height: 2cm;
+  }
+  .text p{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .contacts {
+    height: 70vh;
+  }
+  .sign img {
+    height: 1cm;
+    width: auto;
+  }
+  .conimg img{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .conimg p{
+    font-size: 50;
+    color: #fff;
+    margin-top: -10px;
+  }
+
+}
+
+@media only screen and (min-width: 450px) and (max-width: 1000px) {
   body {
     font-size: 3vw;
   }
